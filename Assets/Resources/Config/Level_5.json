@@ -1,0 +1,75 @@
+{
+    "data": [
+        {
+            "level": {
+                "name": 1,
+                "tower_info": [
+                    {
+                        "ModelName": "Warrior_example1",
+                        "Attack": 5,
+                        "AttackCD ": "1",
+                        "Attack_CD":0.8,
+                        "AttackRange": 2,
+                        "BulletModelName": "bullet",
+                        "BullerMoveSpd": 0,
+                        "BulletFlyLimit": 5,
+                        "AttckAnimName": "AttackMelee2",
+                        "menus": {
+                            "name": "近战",
+                            "level": 1,
+                            "skin": [
+                                "",
+                                ""
+                            ]
+                        }
+                    },
+                    {
+                        "ModelName": "Archer_example2",
+                        "Attack": 2,
+                        "AttackCD ": "1",
+                        "Attack_CD":0.8,
+                        "AttackRange": 5,
+                        "BulletModelName": "bullet",
+                        "BullerMoveSpd": 5,
+                        "BulletFlyLimit": 5,
+                        "AttckAnimName": "AttackRange1",
+                        "menus": {
+                            "name": "远程",
+                            "level": 1,
+                            "skin": [
+                                "",
+                                ""
+                            ]
+                        }
+                    }
+                ],
+                "enemy_info": [
+                    {
+                        "ModelName": "Warrior",
+                        "HP": 15,
+                        "MoveSpeed": 1,
+                        "Count": 10,
+                        "Size": 1,
+                        "Wave": 1
+                    },
+                    {
+                        "ModelName": "Archer",
+                        "HP": 10,
+                        "MoveSpeed": 3.5,
+                        "Count": 5,
+                        "Size": 1,
+                        "Wave": 2
+                    },
+                    {
+                        "ModelName": "Birder",
+                        "HP": 50,
+                        "MoveSpeed": 0.3,
+                        "Count": 5,
+                        "Size": 2,
+                        "Wave": 1
+                    }
+                ]
+            }
+        }
+    ]
+}
